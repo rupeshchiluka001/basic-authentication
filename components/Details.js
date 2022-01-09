@@ -10,7 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Router from 'next/router';
 
-const apiUrl = `http://localhost:3080/api`;
+const apiUrl = `${process.env.NEXT_PUBLIC_SERVER_URL}/api`;
 
 export default function Details(props) {
 

@@ -10,7 +10,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Dialog from '../components/Dialog';
 
 const theme = createTheme();
-const apiUrl = `http://localhost:3080/api`;
+const apiUrl = `${process.env.NEXT_PUBLIC_SERVER_URL}/api`;
 
 export default function Login(props) {
 

@@ -33,6 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-pages/api/.env
-pages/api/config/private_key.pem
-pages/api/config/public_key.pem
+.env.local
+# Local Netlify folder
+.netlify

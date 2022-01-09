@@ -6,10 +6,10 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Dialog from '../components/Dialog';
+import Dialog from './Dialog';
 
 const theme = createTheme();
-const apiUrl = `http://localhost:3080/api`;
+const apiUrl = `${process.env.NEXT_PUBLIC_SERVER_URL}/api`;
 
 export default function Form(props) {
 
